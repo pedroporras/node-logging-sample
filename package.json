@@ -1,0 +1,22 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "Sample for a NodeJS with Logging implementation",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "express-winston": "^4.2.0",
+    "winston": "^3.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "NODE_ENV=development nodemon --inspect=0.0.0.0:9229 index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
